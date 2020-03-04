@@ -10,10 +10,10 @@ Ademas del desarrollo especifico de las funcionalidades, se requieren identifica
 
 ### Dependencias y librerias utilizadas
 
-Fetch: Axios/Fetch API
-Date parsing: Moment
-Testing: Jest/Enzyme
-Obtener ubicacion actual: IP-API
+* **Fetch:** Axios/Fetch API
+* **Date parsing:** Moment
+* **Testing:** Jest/Enzyme
+* **Location:** IP-API
 
 ### Como utilizar
 
