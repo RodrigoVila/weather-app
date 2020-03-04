@@ -8,13 +8,18 @@ Se debe diseñar el UI que se considere mas acorde (No se valoran habilidades de
 
 Ademas del desarrollo especifico de las funcionalidades, se requieren identificar y generar los casos de test que se consideren necesarios.
 
+### Dependencias y librerias utilizadas
+
+Fetch: Axios/Fetch API
+Date parsing: Moment
+Testing: Jest/Enzyme
+Obtener ubicacion actual: IP-API
+
 ### Como utilizar
 
 1) Descargar o clonar este repositorio
 2) Ingresar en la carpeta del proyecto `cd weather-app`
 3) Instalar dependencias `npm i`
-4) Para abrir, ejecutar `npm run`
-5) Para testear, ejecutar `npm test`
-
-### Live Demo
+4) Abrir ejecutando `npm run`
+5) Testear ejecutando `npm test`
 
