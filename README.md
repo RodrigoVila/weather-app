@@ -23,3 +23,12 @@ Ademas del desarrollo especifico de las funcionalidades, se requieren identifica
 4) Abrir ejecutando `npm run`
 5) Testear ejecutando `npm test`
 
+#### Aclaraciones y/o cosas para arreglar:
+
+**App.js** Pude pasar como props las distintas ciudades en los Forecast. En el componente `Cities.js` las props pasan directamente y actualizan el query en base a esto, pero el problema se me genero con la ciudad actual `CurrentCity.js` ya que las props pasarian inversamente respecto al otro. En este caso, la ciudad actual queda guardada en el state pero no supe como traerla para que `Forecast.js` la tome.
+
+**CurrentCity.js** La consola tira un bad request al ejecutar este componente, pero no entiendo por que ya que la informacion llega perfecta. Revisar hooks city y currentCity para actualizar el link del query. Tal vez puedo utilizar uno solo ya que los dos, al fin y al cabo, devuelven la misma informacion.
+
+**General** Tuve que hacer `<Redirect from="/" to="/main" />` cuando apenas se abre la app, por que si iniciaba en "Ciudad Actual", al hacer click en otra ciudad se superpone el contenido pero nunca desaparece el primero.
+So optaba por dejarlo como estaba pero poniendo el path de "Ciudad Actual" como /main, al iniciar el contenedor se encontraba sin informacion, quedando esteticamente feo.
+
