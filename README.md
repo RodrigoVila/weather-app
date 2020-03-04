@@ -13,7 +13,7 @@ Ademas del desarrollo especifico de las funcionalidades, se requieren identifica
 1) Descargar o clonar este repositorio
 2) Ingresar en la carpeta del proyecto `cd weather-app`
 3) Instalar dependencias `npm i`
-4) Ejecutar `npm run`
+4) Para abrir, ejecutar `npm run`
 5) Para testear, ejecutar `npm test`
 
 ### Live Demo
