@@ -8,7 +8,7 @@ Se debe diseñar el UI que se considere mas acorde (No se valoran habilidades de
 
 Ademas del desarrollo especifico de las funcionalidades, se requieren identificar y generar los casos de test que se consideren necesarios.
 
-### Como usar
+### Como utilizar
 
 1) Descargar o clonar este repositorio
 2) Instalar dependencias `npm i`
